@@ -18,12 +18,6 @@ public class NonBDDStylePUT {
     //POST - AUTH - Token
     //POST booking ID
     //PUT - Token booking ID
-   public void get_token(){
-
-   }
-   public void get_booking_id(){
-
-   }
 
     @Test
     public void test_put_positive_tc(){

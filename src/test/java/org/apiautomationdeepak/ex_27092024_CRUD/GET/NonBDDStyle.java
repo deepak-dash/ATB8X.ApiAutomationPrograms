@@ -9,9 +9,9 @@ public class NonBDDStyle {
         //Response Specification
         RequestSpecification r = RestAssured.given();
         r.baseUri("https://api.zippopotam.us/");
-        r.basePath("IN/560017");
+        r.basePath("IN/560075");
         r.when().log().all().get();
-        r.then().log().all().statusCode(404);
+        r.then().log().all().statusCode(200);
 
     }
 
